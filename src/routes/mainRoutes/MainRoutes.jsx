@@ -24,14 +24,14 @@ const MainRoutes = () => {
 				<Route element={<DashboardLayout />}>
 					<Route path="/dashboard" element={<DashboardOverview />} />
 				</Route>
-				
+
 				<Route
 					path="*"
 					element={
 						<div className="flex flex-col gap-5 justify-center items-center min-h-screen">
 							<p className="text-center text-textPrimary font-bold text-3xl">Page not found</p>
 							<Link to="/">
-								<button className="bg-gradient-to-r from-cyan-500 to-blue-700 px-8 dark:text-white text-black">
+								<button className="bg-gradient-to-r from-cyan-500 to-blue-700 px-8 py-2 rounded-lg text-white dark:text-white ">
 									home
 								</button>
 							</Link>

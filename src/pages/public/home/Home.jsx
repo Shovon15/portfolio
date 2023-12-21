@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
 	return (
@@ -8,8 +9,8 @@ const Home = () => {
 				<meta name="description" content="Shovon Mahamud portfolio home page" />
 				<link rel="canonical" href="/" />
 			</Helmet>
-			<div className="min-h-screen">
-				<p>Home page</p>
+			<div className="">
+				<Banner />
 			</div>
 		</>
 	);
